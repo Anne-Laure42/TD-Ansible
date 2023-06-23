@@ -1,5 +1,5 @@
 - name: Install MySQL
-  user: azureuser
+  user: adminuser
   hosts: mysql
   become: True
   become_user: root
