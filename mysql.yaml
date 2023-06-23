@@ -1,6 +1,6 @@
 - name: Install MySQL
   user: adminuser
-  hosts: mysql
+  hosts: mysqlserver
   become: True
   become_user: root
   vars:
